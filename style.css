@@ -1,4 +1,259 @@
-#logo {
-    width: 50px;
-    height: auto;
+body {
+    margin: 0;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    height: 100%;
 }
+
+.logo {
+    width: 70px;
+    height: auto;
+    margin-left: 10px; 
+    padding-top: 5px;
+    float: left;
+}
+
+.nav-bar {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 60px;
+    padding-top: 5.5%;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    position: relative;
+}
+
+nav a:hover::before {
+    content: ""; 
+    position: absolute;
+    left: -15px; 
+    top: -15px; 
+    right: -15px; 
+    bottom: -15px; 
+    border: 2px solid black; 
+    border-radius: 5px; 
+}
+
+
+.title {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    animation: flyUp 1s ease-out forwards;
+    opacity: 0; 
+    color: white;
+}
+
+.back-video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+h1 {
+    font-size: 70px;
+    padding-top: 16.5%;
+    
+    font-weight: bold;
+}
+
+h3 {
+    padding-top: 5%;
+    font-size: 50px;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 14px 70px;
+    border-radius: 50px;
+}
+
+h4 {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px 15px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+@keyframes flyUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+
+.energy-types {
+    text-align: left;
+}
+
+.types{
+    color: black;
+    padding-left: 45px;
+    padding-top: 20%;
+}
+
+.solar-panels {
+    padding-left: 55px;
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.EVs {
+    text-align: center;
+    margin-top: -360px;
+    font-size: 30px;
+}
+
+.hydropower {
+    padding-left: 55px;
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.windpower {
+    text-align: center;
+    margin-top: -380px;
+    margin-left: -110px;
+    font-size: 30px;
+}
+
+.description1 {
+    font-size: 25px;
+    color: black;   
+    inline-size: 700px;
+    overflow-wrap: break-word;                                                               
+}
+
+.description2 {
+    text-align: left;
+    margin-left: 43.1%;
+    font-size: 25px;
+    color: black;   
+    inline-size: 900px;
+    overflow-wrap: break-word;                                                               
+}
+
+.description3 {
+    text-align: left;
+    margin-left: 45.5%;
+    font-size: 25px;
+    color: black;   
+    inline-size: 900px;
+    overflow-wrap: break-word;  
+}
+
+.description4 {
+    text-align: center;
+    display: inline-block;
+    inline-size: 1000px;
+    overflow-wrap: break-word; 
+    font-size: 30px;
+}
+
+.button1 {
+    margin-left: -160px;
+}
+
+.button2 {
+    margin-left: -60px;
+}
+
+.button3 {
+    display: inline-block;
+    border: 3px solid black;
+    padding: 15px 15px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+
+.unsustainable {
+    color: black;
+    text-align: center;
+}
+
+.good-company {
+    text-align: center;
+    margin-top: -200px;
+}
+
+.advertisment {
+    text-align: center;
+    font-size: 30px;
+    inline-size: 1000px;
+    overflow-wrap: break-word;
+    margin-top: -400px; 
+    margin-left: 30%;
+}
+
+#container {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+    text-align: center;
+}
+
