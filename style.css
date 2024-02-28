@@ -202,57 +202,6 @@ section {
 }
 
 
-/* .description1 {
-    font-size: 25px;
-    color: black;   
-    inline-size: 700px;
-    overflow-wrap: break-word;                                                               
-}
-
-.description2 {
-    text-align: left;
-    margin-left: 43.1%;
-    font-size: 25px;
-    color: black;   
-    inline-size: 900px;
-    overflow-wrap: break-word;                                                               
-}
-
-.description3 {
-    text-align: left;
-    margin-left: 45.5%;
-    font-size: 25px;
-    color: black;   
-    inline-size: 900px;
-    overflow-wrap: break-word;  
-}
-
-.description4 {
-    text-align: center;
-    display: inline-block;
-    inline-size: 1000px;
-    overflow-wrap: break-word; 
-    font-size: 30px;
-} */
-
-/* .button1 {
-    margin-left: -160px;
-}
-
-.button2 {
-    margin-left: -60px;
-}
-
-.button3 {
-    display: inline-block;
-    border: 3px solid black;
-    padding: 15px 15px;
-    border-radius: 50px;
-    margin-top: 20px;
-    font-size: 30px;
-} */
-
-
 .unsustainable {
     color: black;
     text-align: center;
@@ -281,13 +230,13 @@ section {
     padding-bottom: 100px;
 }
 
+
 #footer {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     position: relative;
     height: 100px;
     margin-top: -100px;
     clear: both;
     text-align: center;
 }
-
