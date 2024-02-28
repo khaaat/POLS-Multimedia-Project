@@ -133,8 +133,10 @@ h4 {
 
 
 
-.energy-types {
-    text-align: left;
+#section_1_title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .types{
@@ -168,7 +170,39 @@ h4 {
     font-size: 30px;
 }
 
-.description1 {
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.section_1_part { /* Different Sections for type of */
+
+    width: 600px;
+    margin: 0px 50px 0px 50px;
+}
+
+.section_1_part > h2 {
+    font-size: 50px;
+}
+
+.section_1_part > p {
+
+}
+
+.section_1_button {
+
+}
+
+@media (min-width: 800px){
+    section{
+        flex-direction: row;
+    }
+}
+
+
+/* .description1 {
     font-size: 25px;
     color: black;   
     inline-size: 700px;
@@ -199,9 +233,9 @@ h4 {
     inline-size: 1000px;
     overflow-wrap: break-word; 
     font-size: 30px;
-}
+} */
 
-.button1 {
+/* .button1 {
     margin-left: -160px;
 }
 
@@ -216,7 +250,7 @@ h4 {
     border-radius: 50px;
     margin-top: 20px;
     font-size: 30px;
-}
+} */
 
 
 .unsustainable {
