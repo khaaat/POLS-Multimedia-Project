@@ -73,6 +73,7 @@ nav a:hover::before {
     animation: flyUp 1s ease-out forwards;
     opacity: 0; 
     color: white;
+    text-shadow: 2px 2px 10px black;
 }
 
 .back-video {
@@ -139,7 +140,7 @@ h4 {
     justify-content: center;
 }
 
-.types{
+/* .types{
     color: black;
     padding-left: 45px;
     padding-top: 20%;
@@ -168,7 +169,7 @@ h4 {
     margin-top: -380px;
     margin-left: -110px;
     font-size: 30px;
-}
+} */
 
 section {
     display: flex;
@@ -179,7 +180,7 @@ section {
 
 .section_1_part { /* Different Sections for type of */
 
-    width: 600px;
+    width: 800px;
     margin: 0px 50px 0px 50px;
 }
 
@@ -253,14 +254,34 @@ section {
 } */
 
 
-.unsustainable {
+#unsustainable {
     color: black;
     text-align: center;
+    margin: 0px 200px;
 }
 
-.good-company {
+#unsustainable >
+
+#good_company {
     text-align: center;
-    margin-top: -200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+}
+
+#good_company > h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 0px;
+    padding-bottom: 0px;
+    margin-top: 100px;
+}
+
+#good_company > p {
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 200px;
+    margin-bottom: 100px;
 }
 
 .advertisment {
@@ -286,7 +307,6 @@ section {
     color: white;
     position: relative;
     height: 100px;
-    margin-top: -100px;
     clear: both;
     text-align: center;
 }
