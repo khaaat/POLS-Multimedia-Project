@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #dcfac8;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -9,8 +10,9 @@ body {
 .logo {
     width: 70px;
     height: auto;
-    margin-left: 10px; 
+    margin-left: 20px; 
     padding-top: 5px;
+    padding-bottom: 5px;
     float: left;
 }
 
@@ -21,7 +23,8 @@ body {
 }
 
 header {
-    background-color: white;
+    background-color: #2b3624;
+    box-shadow: 0px 0px 10px black;
 }
 
 header::after {
@@ -47,7 +50,7 @@ nav li {
 }
 
 nav a {
-    color: black;
+    color: #dcfac8;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
@@ -61,8 +64,12 @@ nav a:hover::before {
     top: -15px; 
     right: -15px; 
     bottom: -15px; 
-    border: 2px solid black; 
+    border: 2px solid #dcfac8; 
     border-radius: 5px; 
+}
+
+a:hover {
+    color: orange;
 }
 
 h1 {
@@ -100,13 +107,6 @@ h4 {
 }
 
 
-#footer {
-    background-color: white;
-    position: relative;
-    height: 100px;
-    margin-top: 200px;
-    text-align: center;
-}
 
 .electricVehiclePage {
     margin: 0;
@@ -124,7 +124,10 @@ h4 {
     animation: floatUp 2s ease-out;
 }
 
-.EV-Title {
+.Title {
+    font-family: "Merriweather", serif;
+    color: #2b3624;
+    text-shadow: 2px 2px 5px grey;
     margin-left: 10vh;
     margin-top: -10vh;
     animation: floatUp 2s ease-out;
@@ -132,27 +135,32 @@ h4 {
 
 @keyframes floatUp {
     from {
-      transform: translateY(100px); /* Initial position */
-      opacity: 0; /* Initial opacity */
+        transform: translateY(100px); /* Initial position */
+        opacity: 0; /* Initial opacity */
     }
     to {
-      transform: translateY(0); /* Final position */
-      opacity: 1; /* Final opacity */
+        transform: translateY(0); /* Final position */
+        opacity: 1; /* Final opacity */
     }
 }
 
-.EV-explaination {
+.explaination {
     text-align: center;
     flex-direction: column;
     margin-top: -10vh;
-   
 }
 
-.ev-paragraph-section {
+.explaination > h1 {
+    font-family: "Merriweather", serif;
+    color:#2b3624;
+}
+
+.explaination > p {
     text-align: center;
-    display: inline-block;
-    overflow-wrap: break-word;
+    overflow-wrap: wrap;
     inline-size: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
     font-size: 25px;
 }
 
@@ -166,6 +174,8 @@ h4 {
 }
 
 .compare-title {
+    font-family: "Merriweather", serif;
+    color: #2b3624;
     text-align: center;
     margin-top: -15vh;
     margin-bottom: 10vh;
@@ -173,6 +183,7 @@ h4 {
 
 
 .comparison-container, .pros-container, .cons-container {
+    background-color: white;
     flex: 1;
 }
 
@@ -198,11 +209,15 @@ h4 {
 }
 
 .pro-title {
+    font-family: "Merriweather", serif;
+    text-decoration: underline;
     background-color: lightgreen;
 }
 
 .cons-title {
-    background-color: red;
+    font-family: "Merriweather", serif;
+    text-decoration: underline;
+    background-color: orangered;
 }
 .solarImg{
     max-width: 100%;
@@ -218,23 +233,11 @@ h4 {
     align-items: center;
     flex-direction: row;
 }
-.solarTitle{
-    margin-left: 10vh;
-    margin-top: -10vh;
-    animation: floatUp 2s ease-out;
+
+.otherCompanies {
+    background-color: white;
 }
-.solarExplaination{
-    text-align: center;
-    flex-direction: column;
-    margin-top: -10vh;
-}
-.solarParagraph{
-    text-align: center;
-    display: inline-block;
-    overflow-wrap: break-word;
-    inline-size: 1000px;
-    font-size: 25px;
-}
+
 .companyList > li > a > img{
     display: block;
     padding: 15px;
@@ -252,4 +255,14 @@ h4 {
     justify-content: center;
 }
 
+footer {
+    background-color: #2b3624;
+    color: #dcfac8;
+    padding-top: 10px;
+    position: relative;
+    height: 100px;
+    margin-top: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 20px black;
+}
 
