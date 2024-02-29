@@ -73,6 +73,7 @@ nav a:hover::before {
     animation: flyUp 1s ease-out forwards;
     opacity: 0; 
     color: white;
+    text-shadow: 2px 2px 10px black;
 }
 
 .back-video {
@@ -140,11 +141,11 @@ h4 {
     margin-top: 12%;
 }
 
-#section-2-title {
+#section_2_title {
     margin-top: -5%;
 }
 
-.types{
+/* .types{
     color: black;
     padding-left: 45px;
     padding-top: 20%;
@@ -173,7 +174,7 @@ h4 {
     margin-top: -380px;
     margin-left: -110px;
     font-size: 30px;
-}
+} */
 
 section {
     display: flex;
@@ -182,9 +183,9 @@ section {
     flex-direction: column;
 }
 
-.section_1_part { /* Different Sections for type of */
+.section_1_part { /* Different Sections for type of power*/
 
-    width: 600px;
+    width: 800px;
     margin: 0px 50px 0px 50px;
 }
 
@@ -237,15 +238,34 @@ a:visited {
 }
 
 
-.unsustainable {
+#unsustainable {
     color: black;
     text-align: center;
+    margin: 0px 200px;
 }
 
-.good-company {
+#good_company {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+#good_company > h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 0px;
+    padding-bottom: 0px;
+    margin-top: 100px;
+}
+
+#good_company > p {
     text-align: center;
     margin-top: -200px;
+    font-size: 20px;
+    margin: 0px 200px;
+    margin-bottom: 100px;
 }
+
 
 .advertisment {
     text-align: center;
@@ -256,119 +276,15 @@ a:visited {
     margin-left: 30%;
 }
 
-#container {
-    min-height: 100%;
-}
-
-#main {
-    overflow: auto;
-    padding-bottom: 100px;
-}
-
-
 #footer {
-    background-color: white;
+    background-color: black;
     position: relative;
     height: 100px;
     margin-top: 200px;
     text-align: center;
 }
 
-.electricVehiclePage {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+#footer > p {
+    padding-top: 20px;
+    color: white;
 }
-
-.EV-Picture {
-    max-width: 100%;
-    width: 90vh;
-    margin-left: 14vh;
-    margin-top: 15vh;
-    border-radius: 20px;
-    animation: floatUp 2s ease-out;
-}
-
-.EV-Title {
-    margin-left: 10vh;
-    margin-top: -10vh;
-    animation: floatUp 2s ease-out;
-}
-
-@keyframes floatUp {
-    from {
-      transform: translateY(100px); /* Initial position */
-      opacity: 0; /* Initial opacity */
-    }
-    to {
-      transform: translateY(0); /* Final position */
-      opacity: 1; /* Final opacity */
-    }
-}
-
-.EV-explaination {
-    text-align: center;
-    flex-direction: column;
-    margin-top: -10vh;
-   
-}
-
-.ev-paragraph-section {
-    text-align: center;
-    display: inline-block;
-    overflow-wrap: break-word;
-    inline-size: 1000px;
-    font-size: 25px;
-}
-
-.comparison-container {
-    display: flex;
-    max-width: 1000px;
-    margin: 32px auto;
-    box-shadow: 0 4px 16px -4px rgba(0, 0, 0, 0.4);
-    border-radius: 10px;
-    margin-bottom: 10vh;
-}
-
-.compare-title {
-    text-align: center;
-    margin-top: -15vh;
-    margin-bottom: 10vh;
-}
-
-
-.comparison-container, .pros-container, .cons-container {
-    flex: 1;
-}
-
-.comparison-container ul{
-    padding: 8px 0;
-    list-style: none;
-    margin: 0;
-}
-
-.comparison-container ul li{
-    padding: 16px 32px;
-    font-size: 20px;
-    line-height: 2;
-}
-
-
-
-.pro-title, .cons-title {
-    font-size: 20px;
-    text-align: center;
-    margin: 0;
-    padding: 16px 24px;
-}
-
-.pro-title {
-    background-color: lightgreen;
-}
-
-.cons-title {
-    background-color: red;
-}
-
-
