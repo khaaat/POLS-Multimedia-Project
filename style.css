@@ -268,5 +268,82 @@ footer > p {
     height: auto;
     margin: 10vh;
     margin-top: -10vh;
-    margin-bottom: -10vh;
+    animation: floatUp 2s ease-out;
 }
+
+@keyframes floatUp {
+    from {
+      transform: translateY(100px); /* Initial position */
+      opacity: 0; /* Initial opacity */
+    }
+    to {
+      transform: translateY(0); /* Final position */
+      opacity: 1; /* Final opacity */
+    }
+}
+
+.EV-explaination {
+    text-align: center;
+    flex-direction: column;
+    margin-top: -10vh;
+   
+}
+
+.ev-paragraph-section {
+    text-align: center;
+    display: inline-block;
+    overflow-wrap: break-word;
+    inline-size: 1000px;
+    font-size: 25px;
+}
+
+.comparison-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 32px auto;
+    box-shadow: 0 4px 16px -4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-bottom: 10vh;
+}
+
+.compare-title {
+    text-align: center;
+    margin-top: -15vh;
+    margin-bottom: 10vh;
+}
+
+
+.comparison-container, .pros-container, .cons-container {
+    flex: 1;
+}
+
+.comparison-container ul{
+    padding: 8px 0;
+    list-style: none;
+    margin: 0;
+}
+
+.comparison-container ul li{
+    padding: 16px 32px;
+    font-size: 20px;
+    line-height: 2;
+}
+
+
+
+.pro-title, .cons-title {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 16px 24px;
+}
+
+.pro-title {
+    background-color: lightgreen;
+}
+
+.cons-title {
+    background-color: red;
+}
+
+
