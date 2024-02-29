@@ -145,37 +145,6 @@ h4 {
     margin-top: -5%;
 }
 
-/* .types{
-    color: black;
-    padding-left: 45px;
-    padding-top: 20%;
-}
-
-.solar-panels {
-    padding-left: 55px;
-    padding-top: 15px;
-    font-size: 30px;
-}
-
-.EVs {
-    text-align: center;
-    margin-top: -360px;
-    font-size: 30px;
-}
-
-.hydropower {
-    padding-left: 55px;
-    padding-top: 15px;
-    font-size: 30px;
-}
-
-.windpower {
-    text-align: center;
-    margin-top: -380px;
-    margin-left: -110px;
-    font-size: 30px;
-} */
-
 section {
     display: flex;
     flex-wrap: wrap;
@@ -206,7 +175,7 @@ a:visited {
     text-decoration: black;
 }
 
-#section-2-button {
+#section_2_button {
     display: inline-block;
     border: 5px solid black;
     padding: 10px 25px;
@@ -216,11 +185,11 @@ a:visited {
     align-items: center;
 }
 
-#section-2-button:hover {
+#section_2_button:hover {
     color: green;
 }
 
-.section-2-description {
+.section_2_description {
     text-align: center;
     display: inline-block;
     overflow-wrap: break-word;
