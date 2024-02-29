@@ -138,38 +138,12 @@ h4 {
     text-align: center;
     display: flex;
     justify-content: center;
+    margin-top: 12%;
 }
 
-/* .types{
-    color: black;
-    padding-left: 45px;
-    padding-top: 20%;
+#section_2_title {
+    margin-top: -5%;
 }
-
-.solar-panels {
-    padding-left: 55px;
-    padding-top: 15px;
-    font-size: 30px;
-}
-
-.EVs {
-    text-align: center;
-    margin-top: -360px;
-    font-size: 30px;
-}
-
-.hydropower {
-    padding-left: 55px;
-    padding-top: 15px;
-    font-size: 30px;
-}
-
-.windpower {
-    text-align: center;
-    margin-top: -380px;
-    margin-left: -110px;
-    font-size: 30px;
-} */
 
 section {
     display: flex;
@@ -178,7 +152,7 @@ section {
     flex-direction: column;
 }
 
-.section_1_part { /* Different Sections for type of */
+.section_1_part { /* Different Sections for type of power*/
 
     width: 800px;
     margin: 0px 50px 0px 50px;
@@ -188,13 +162,43 @@ section {
     font-size: 50px;
 }
 
-.section_1_part > p {
-
+a {
+    color: black;
+    text-decoration: none;
 }
 
-.section_1_button {
-
+a:hover {
+    color: green;
 }
+
+a:visited {
+    text-decoration: black;
+}
+
+#section_2_button {
+    display: inline-block;
+    border: 5px solid black;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size: 25px;
+    align-items: center;
+}
+
+#section_2_button:hover {
+    color: green;
+}
+
+.section_2_description {
+    text-align: center;
+    display: inline-block;
+    overflow-wrap: break-word;
+    inline-size: 1000px;
+    font-size: 25px;
+    padding-bottom: 2vh;
+}
+
+
 
 @media (min-width: 800px){
     section{
@@ -203,70 +207,16 @@ section {
 }
 
 
-/* .description1 {
-    font-size: 25px;
-    color: black;   
-    inline-size: 700px;
-    overflow-wrap: break-word;                                                               
-}
-
-.description2 {
-    text-align: left;
-    margin-left: 43.1%;
-    font-size: 25px;
-    color: black;   
-    inline-size: 900px;
-    overflow-wrap: break-word;                                                               
-}
-
-.description3 {
-    text-align: left;
-    margin-left: 45.5%;
-    font-size: 25px;
-    color: black;   
-    inline-size: 900px;
-    overflow-wrap: break-word;  
-}
-
-.description4 {
-    text-align: center;
-    display: inline-block;
-    inline-size: 1000px;
-    overflow-wrap: break-word; 
-    font-size: 30px;
-} */
-
-/* .button1 {
-    margin-left: -160px;
-}
-
-.button2 {
-    margin-left: -60px;
-}
-
-.button3 {
-    display: inline-block;
-    border: 3px solid black;
-    padding: 15px 15px;
-    border-radius: 50px;
-    margin-top: 20px;
-    font-size: 30px;
-} */
-
-
 #unsustainable {
     color: black;
     text-align: center;
     margin: 0px 200px;
 }
 
-#unsustainable >
-
 #good_company {
     text-align: center;
     margin-top: 200px;
     margin-bottom: 200px;
-
 }
 
 #good_company > h1 {
@@ -279,10 +229,12 @@ section {
 
 #good_company > p {
     text-align: center;
+    margin-top: -200px;
     font-size: 20px;
     margin: 0px 200px;
     margin-bottom: 100px;
 }
+
 
 .advertisment {
     text-align: center;
@@ -293,21 +245,15 @@ section {
     margin-left: 30%;
 }
 
-#container {
-    min-height: 100%;
-}
-
-#main {
-    overflow: auto;
-    padding-bottom: 100px;
-}
-
 #footer {
     background-color: black;
-    color: white;
     position: relative;
     height: 100px;
-    clear: both;
+    margin-top: 200px;
     text-align: center;
 }
 
+#footer > p {
+    padding-top: 20px;
+    color: white;
+}
