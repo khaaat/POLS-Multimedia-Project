@@ -370,5 +370,50 @@ a:visited {
 .cons-title {
     background-color: red;
 }
-
-
+.solarImg{
+    max-width: 100%;
+    width: 90vh;
+    margin-left: 14vh;
+    margin-top: 15vh;
+    border-radius: 20px;
+    animation: floatUp 2s ease-out;
+}
+.solarTopPage{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.solarTitle{
+    margin-left: 10vh;
+    margin-top: -10vh;
+    animation: floatUp 2s ease-out;
+}
+.solarExplaination{
+    text-align: center;
+    flex-direction: column;
+    margin-top: -10vh;
+}
+.solarParagraph{
+    text-align: center;
+    display: inline-block;
+    overflow-wrap: break-word;
+    inline-size: 1000px;
+    font-size: 25px;
+}
+.companyList > li > a > img{
+    display: block;
+    padding: 15px;
+    width: 180px;
+    height: auto;
+    margin: 20px;
+}
+.companyList > li{
+    display: inline-block;
+    align-content: center;
+}
+.companyList{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
