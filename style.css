@@ -1,4 +1,5 @@
 body {
+    background-color: #2b3624;
     margin: 0;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
@@ -21,7 +22,7 @@ body {
 }
 
 header {
-    background-color: white;
+    background-color: #dcfac8;
 }
 
 header::after {
@@ -67,16 +68,18 @@ nav a:hover::before {
 
 
 .title {
+    font-family: "Merriweather", serif;
     text-align: center;
     justify-content: center;
     align-items: center;
     animation: flyUp 1s ease-out forwards;
     opacity: 0; 
-    color: white;
-    text-shadow: 2px 2px 10px black;
+    color: #2b3624;
+    text-shadow: 0px 0px 30px #dcfac8;
 }
 
 .back-video {
+    display: block;
     position: absolute;
     top: 0;
     right: 0;
@@ -87,6 +90,7 @@ nav a:hover::before {
     object-fit: cover;
     z-index: -1;
 }
+
 
 h1 {
     font-size: 70px;
@@ -138,7 +142,11 @@ h4 {
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-top: 12%;
+    margin-top: 425px;
+    font-family: "Merriweather", serif;
+    color: #dcfac8;
+    padding-bottom: 40px;
+    text-shadow: 2px 2px 2px black;
 }
 
 #section_2_title {
@@ -148,8 +156,12 @@ h4 {
 section {
     display: flex;
     flex-wrap: wrap;
+    position: sticky;
     justify-content: space-around;
     flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #dcfac8;
 }
 
 .section_1_part { /* Different Sections for type of power*/
@@ -159,7 +171,13 @@ section {
 }
 
 .section_1_part > h2 {
+    font-family: "Merriweather", serif;
+    color: #2b3624;
     font-size: 50px;
+}
+
+.section_1_part > p {
+    font-size: 20px;
 }
 
 a {
@@ -208,23 +226,35 @@ a:visited {
 
 
 #unsustainable {
-    color: black;
+    color: #dcfac8;
     text-align: center;
-    margin: 0px 200px;
+    margin: 0px 200px 50px 200px;
+}
+
+#unsustainable > h1 {
+    font-family: "Merriweather", serif;
+    font-size: 60px;
+    margin-top: 0px;
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+#unsustainable > p {
+    font-size: 20px;
 }
 
 #good_company {
     text-align: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #good_company > h1 {
+    font-family: "Merriweather", serif;
     text-align: center;
     font-size: 50px;
     padding: 0px;
     padding-bottom: 0px;
-    margin-top: -70px;
 }
 
 #good_company > p {
@@ -232,7 +262,7 @@ a:visited {
     margin-top: -200px;
     font-size: 20px;
     margin: 0px 200px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 
@@ -245,15 +275,15 @@ a:visited {
     margin-left: 30%;
 }
 
-#footer {
-    background-color: black;
+footer {
+    background-color: #2b3624;
     position: relative;
     height: 100px;
     margin-top: 200px;
     text-align: center;
 }
 
-#footer > p {
+footer > p {
     padding-top: 20px;
     color: white;
 }
