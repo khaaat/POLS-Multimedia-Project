@@ -73,6 +73,7 @@ nav a:hover::before {
     animation: flyUp 1s ease-out forwards;
     opacity: 0; 
     color: white;
+    text-shadow: 2px 2px 10px black;
 }
 
 .back-video {
@@ -140,39 +141,8 @@ h4 {
     margin-top: 12%;
 }
 
-#section-2-title {
+#section_2_title {
     margin-top: -5%;
-}
-
-.types{
-    color: black;
-    padding-left: 45px;
-    padding-top: 20%;
-}
-
-.solar-panels {
-    padding-left: 55px;
-    padding-top: 15px;
-    font-size: 30px;
-}
-
-.EVs {
-    text-align: center;
-    margin-top: -360px;
-    font-size: 30px;
-}
-
-.hydropower {
-    padding-left: 55px;
-    padding-top: 15px;
-    font-size: 30px;
-}
-
-.windpower {
-    text-align: center;
-    margin-top: -380px;
-    margin-left: -110px;
-    font-size: 30px;
 }
 
 section {
@@ -182,9 +152,9 @@ section {
     flex-direction: column;
 }
 
-.section_1_part { /* Different Sections for type of */
+.section_1_part { /* Different Sections for type of power*/
 
-    width: 600px;
+    width: 800px;
     margin: 0px 50px 0px 50px;
 }
 
@@ -205,7 +175,7 @@ a:visited {
     text-decoration: black;
 }
 
-#section-2-button {
+#section_2_button {
     display: inline-block;
     border: 5px solid black;
     padding: 10px 25px;
@@ -215,11 +185,11 @@ a:visited {
     align-items: center;
 }
 
-#section-2-button:hover {
+#section_2_button:hover {
     color: green;
 }
 
-.section-2-description {
+.section_2_description {
     text-align: center;
     display: inline-block;
     overflow-wrap: break-word;
@@ -237,15 +207,34 @@ a:visited {
 }
 
 
-.unsustainable {
+#unsustainable {
     color: black;
     text-align: center;
+    margin: 0px 200px;
 }
 
-.good-company {
+#good_company {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+#good_company > h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 0px;
+    padding-bottom: 0px;
+    margin-top: 100px;
+}
+
+#good_company > p {
     text-align: center;
     margin-top: -200px;
+    font-size: 20px;
+    margin: 0px 200px;
+    margin-bottom: 100px;
 }
+
 
 .advertisment {
     text-align: center;
@@ -256,42 +245,28 @@ a:visited {
     margin-left: 30%;
 }
 
-#container {
-    min-height: 100%;
-}
-
-#main {
-    overflow: auto;
-    padding-bottom: 100px;
-}
-
-
 #footer {
-    background-color: white;
+    background-color: black;
     position: relative;
     height: 100px;
     margin-top: 200px;
     text-align: center;
 }
 
-.electricVehiclePage {
-    margin: 0;
+#footer > p {
+    padding-top: 20px;
+    color: white;
+}
+
+.image-container {
     display: flex;
-    align-items: center;
-    flex-direction: row;
-}
+    justify-content: center;
+  }
 
-.EV-Picture {
-    max-width: 100%;
-    width: 90vh;
-    margin-left: 14vh;
-    margin-top: 15vh;
-    border-radius: 20px;
-    animation: floatUp 2s ease-out;
-}
-
-.EV-Title {
-    margin-left: 10vh;
+.image-container img {
+    max-width: 200px;
+    height: auto;
+    margin: 10vh;
     margin-top: -10vh;
     animation: floatUp 2s ease-out;
 }
@@ -417,3 +392,4 @@ a:visited {
     flex-direction: row;
     justify-content: center;
 }
+
