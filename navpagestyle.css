@@ -7,8 +7,9 @@ body {
 }
 
 .logo {
+
     width: 70px;
-    float: inline-start;
+    float: left;
 }
 
 .nav-bar {
@@ -63,18 +64,52 @@ nav a:hover::before {
 }
 
 h1 {
+    display: block;
     font-size: 70px;
     padding-top: 200px;
     text-align: center;
     font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-img {
+
+#AboutUsPic > img {
     display: block;
     width: 1000px;
-    margin-top: 200px;
+    margin-top: 75px;
     margin-left: auto;
     margin-right: auto;
-
 }
+
+#AboutUsPic > p {
+    text-align: center;
+    color: grey;
+}
+
+
+#AboutUsDescription {
+    margin: 100px 100px;
+}
+
+#AboutUsDescription > p {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 75px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#footer {
+    background-color: black;
+    position: relative;
+    height: 100px;
+    text-align: center;
+}
+
+#footer > p {
+    padding-top: 20px;
+    color: white;
+}
+
 
