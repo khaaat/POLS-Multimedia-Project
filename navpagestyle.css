@@ -114,14 +114,68 @@ h1 {
     padding-right: 15%;
 }
 
+#EnergyPageIntro {
+    color: #2b3624;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+    max-inline-size: 1700px;
+}
+
+#EnergyPageMain{
+    background-color: #2b3624;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    box-shadow: 2px 2px 20px black;
+}
+
+#EnergyPageMain > h2 {
+    font-family: "Merriweather", serif;
+    color: #dcfac8;
+    font-size: 30px;
+    margin-top: 50px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#EnergyPageMain > p {
+    color: #dcfac8;
+    font-size: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-inline-size: 1200px;
+}
+
+.EnergyPageExample {
+    font-size: 10px;
+    margin-top: 40px;
+    font-style: italic;
+
+}
+
+#EnergyPageMain > div {
+    display: flex;
+    justify-content: center;
+}
+
+#EnergyPageMain > div > img {
+    width: 300px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 footer {
     background-color: #2b3624;
     color: #dcfac8;
     padding-top: 10px;
     position: relative;
     height: 100px;
-    margin-top: 200px;
+    margin-top: 100px;
     text-align: center;
+    box-shadow: 2px 2px 20px black;
 }
 
 

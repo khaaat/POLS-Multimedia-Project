@@ -107,15 +107,6 @@ h4 {
 }
 
 
-footer {
-    background-color: #2b3624;
-    color: #dcfac8;
-    padding-top: 10px;
-    position: relative;
-    height: 100px;
-    margin-top: 200px;
-    text-align: center;
-}
 
 .electricVehiclePage {
     margin: 0;
@@ -144,12 +135,12 @@ footer {
 
 @keyframes floatUp {
     from {
-      transform: translateY(100px); /* Initial position */
-      opacity: 0; /* Initial opacity */
+        transform: translateY(100px); /* Initial position */
+        opacity: 0; /* Initial opacity */
     }
     to {
-      transform: translateY(0); /* Final position */
-      opacity: 1; /* Final opacity */
+        transform: translateY(0); /* Final position */
+        opacity: 1; /* Final opacity */
     }
 }
 
@@ -264,4 +255,14 @@ footer {
     justify-content: center;
 }
 
+footer {
+    background-color: #2b3624;
+    color: #dcfac8;
+    padding-top: 10px;
+    position: relative;
+    height: 100px;
+    margin-top: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 20px black;
+}
 
