@@ -169,7 +169,7 @@ h4 {
     display: flex;
     max-width: 1000px;
     margin: 32px auto;
-    box-shadow: 0 4px 16px -4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 20px #2b3624;
     border-radius: 10px;
     margin-bottom: 10vh;
 }
@@ -237,6 +237,7 @@ h4 {
 
 .otherCompanies {
     background-color: white;
+    box-shadow: 0px 0px 20px #2b3624;
 }
 
 .companyList > li > a > img{
