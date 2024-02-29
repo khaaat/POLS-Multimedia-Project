@@ -51,6 +51,7 @@ nav li {
 }
 
 nav a {
+    font-family: "Merriweather Sans", sans-serif;
     color: #dcfac8;
     text-decoration: none;
     text-transform: uppercase;
@@ -95,6 +96,7 @@ h1 {
     margin-top: 75px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 0px 20px #2b3624;
 }
 
 #AboutUsPic > p {
@@ -105,9 +107,15 @@ h1 {
 
 #AboutUsDescription {
     margin: 100px 100px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    background-color: #2b3624;
+    box-shadow: 0px 0px 20px #2b3624;
 }
 
 #AboutUsDescription > p {
+    font-family: "Merriweather Sans", sans-serif;
+    color: #dcfac8;
     font-size: 30px;
     text-align: center;
     margin-bottom: 75px;
@@ -116,6 +124,7 @@ h1 {
 }
 
 #EnergyPageIntro {
+    font-family: "Merriweather Sans", sans-serif;
     color: #2b3624;
     text-align: center;
     margin: auto;
@@ -141,6 +150,7 @@ h1 {
 }
 
 #EnergyPageMain > p {
+    font-family: "Merriweather Sans", sans-serif;
     color: #dcfac8;
     font-size: 15px;
     text-align: center;

@@ -51,6 +51,7 @@ nav li {
 }
 
 nav a {
+    font-family: "Merriweather Sans", sans-serif;
     color: #dcfac8;
     text-decoration: none;
     text-transform: uppercase;
@@ -157,6 +158,8 @@ h4 {
 }
 
 .explaination > p {
+    font-family: "Merriweather Sans", sans-serif;
+
     text-align: center;
     overflow-wrap: wrap;
     inline-size: 1000px;
@@ -195,6 +198,7 @@ h4 {
 }
 
 .comparison-container ul li{
+    font-family: "Merriweather Sans", sans-serif;
     padding: 16px 32px;
     font-size: 20px;
     line-height: 2;
