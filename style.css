@@ -257,3 +257,16 @@ a:visited {
     padding-top: 20px;
     color: white;
 }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+.image-container img {
+    max-width: 200px;
+    height: auto;
+    margin: 10vh;
+    margin-top: -10vh;
+    margin-bottom: -10vh;
+}
